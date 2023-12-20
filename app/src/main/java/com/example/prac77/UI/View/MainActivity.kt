@@ -24,16 +24,7 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //setContentView(R.layout.fragment_container)
 
-//        setContent {
-//                // Пример использования Composable элемента с настроенными стилями
-//            StudentInfoUI(
-//                studentName = "Иванов Иван Иванович",
-//                groupName = "Группа 12345",
-//                modifier = Modifier.fillMaxSize().background(Color.White)
-//            )
-//        }
         setContent {
             MyApp("Криштофор Андрей", "ИКБО-25-21")
         }
